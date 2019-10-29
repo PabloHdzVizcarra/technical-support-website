@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.header {
+    height: 60vh;
+    background: url(../img/computer-keyboard-connection-contemporary-1714208.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 2rem;
+    position: relative;
+    text-align: end;
+    right: 1rem;
+}
+
+.header p {
+    position: relative;
+    text-align: end;
+    right: 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.navbar {
+    background: #222831;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    padding: 1rem;
+    margin-left: 1rem;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li:hover {
+    background: #3e434b;
+}
+
+
+
+.contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    /* gap: 0.5rem; */
+    background: #eeeeee;
+}
+
+.notice-1,
+.notice-2,
+.notice-3{
+    grid-column: 1/5;
+    padding: 1rem;
+}
+.notice-title{
+    color: #1f1e1e;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+.notice-text{
+    color: #292626;
+}
+.pack-1,
+.pack-2,
+.pack-3,
+.pack-4,
+.pack-5,
+.pack-6{
+    grid-column: 1/5;
+    margin: 1rem;
+    border: 1px solid #1f1e1e;
+}
+.pack-title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.pack-price{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.pack-ul{
+    list-style: none;
+    text-align: justify;
+    
+}
+.pack-ul li{
+    margin-bottom: 3px;
+    margin-left: 1rem;
+    text-align: center;
+}
