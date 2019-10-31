@@ -80,6 +80,13 @@
 .notice-text{
     color: #292626;
 }
+.notice-1 img,
+.notice-2 img,
+.notice-3 img,
+.notice-4 img{
+    width: 100%;
+}
+
 .pack-1,
 .pack-2,
 .pack-3,
@@ -108,4 +115,28 @@
     margin-bottom: 3px;
     margin-left: 1rem;
     text-align: center;
+}
+.text-pack-1{
+    margin: 1rem;
+    text-align: justify;
+}
+
+
+
+
+.content-footer{
+    background: #222831;
+}    
+.content-footer h4{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(196, 186, 186);
+}
+.content-footer p{
+    color: rgb(196, 186, 186);
+    padding-left: 1rem;
+}
+.copyrigth{
+    text-align: center;
+    padding: 1rem 0 1rem 0;
 }
